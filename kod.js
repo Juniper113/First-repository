@@ -1,10 +1,12 @@
 let calculateArea = function(r) {
   let circumference = 2 * Math.PI * r;
   let area = Math.PI * r * r;
-  return result
-  console.log(circumference);
-  console.log(area);
-};
+  return circumference;
+  return area;
+}
 
-calculateArea();
+let value = circumference(5)
+let othervalue = area(5)
 
+console.log(value)
+console.log(othervalue)
