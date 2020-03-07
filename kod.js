@@ -1,12 +1,12 @@
-let calculateArea = function(r) {
-  let circumference = 2 * Math.PI * r;
-  let area = Math.PI * r * r;
-  return circumference;
-  return area;
-}
+const myCircle = {
+circumference: 0,
+area: 0,
+};
 
-let value = circumference(5)
-let otherValue = area(5)
+const calculateArea = function (circle, r) {
+circle.circumference = 2 * MathPI * r;
+circle.area = Math.PI * r * r;
+return circle;
+};
 
-console.log(value)
-console.log(otherValue)
+console.log(calculateArea(myCircle, 5));
