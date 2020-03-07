@@ -6,7 +6,7 @@ let calculateArea = function(r) {
 }
 
 let value = circumference(5)
-let othervalue = area(5)
+let otherValue = area(5)
 
 console.log(value)
-console.log(othervalue)
+console.log(otherValue)
