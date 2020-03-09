@@ -22,7 +22,7 @@ body { font-family: sans-serif; }
     -o-transition:all .3s;
 }
 
-.box:link, .box:visited {
+.box:link, .box:visited, a:active {
     text-transform: uppercase;
     -moz-transition:all .6s;
     -webkit-transition:all .6s;
