@@ -1,0 +1,41 @@
+body { font-family: sans-serif; }
+.board {
+    width: 306px; background:rgba(214, 207, 255, 0,4);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 100px);
+    grid-gap: 4px;
+    display: grid;
+    cursor: pointer;
+    left: 37% ;
+    top: 20% ;
+    position: absolute ;
+}
+.box {
+    background:rgba(214, 205, 255, 0.7); display: flex; justify-content: center; align-items: center;
+    font-size: 2rem; color: #222;
+}
+.box:hover {
+    background: #fafafa;
+    text-transform: uppercase;
+    -moz-transition:all .3s;
+    -webkit-transition:all .3s;
+    -o-transition:all .3s;
+}
+
+.box:link, .box:visited {
+    text-transform: uppercase;
+    -moz-transition:all .6s;
+    -webkit-transition:all .6s;
+    -o-transition:all .6s;
+}
+
+#title1 { color: black; 
+    font-family: anton, sans-serif;
+    font-size: 49px ; 
+    position: absolute ;
+text-align: center;
+text-transform: uppercase;
+left: 37% ;
+top: 8%;
+}
+
